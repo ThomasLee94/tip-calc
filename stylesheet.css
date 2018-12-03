@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+
+    border: 2px solid black;
+    margin: 10px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  body, html{
+    /* We need to make the body and html tag
+    heigh 100% because the wrapper will take the
+    percentage of its parent. The body and html do 
+    not fill the page buy default, only fill the content*/
+    height: 100%;
+    font-family: Helvetica;
+    margin: 0%;
+  }
